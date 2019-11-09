@@ -97,7 +97,7 @@ p{
 
 .music{
   border:1px solid black;
-  height:350px;
+  max-height:350px;
   display:inline-block;
   margin:15px 0;
 }
@@ -137,4 +137,66 @@ ul > li{
   padding: 0;
   width: 90%;
   max-width: 1200px;
+}
+
+@media screen and (max-width:800px){
+    *{
+        padding:0;
+        margin:0 auto;
+        text-align:center !important;
+        font-size:20px;
+    }
+    
+    header > h1{
+        font-size:40px;
+    }
+    
+    .text{
+    }
+    
+    .text > h2{
+        text-align:center;
+        margin:0;
+        font-size:35px;
+    }
+    
+    img{
+        width:100%;
+    }
+    
+    .sponsor, .offsite{
+        max-width:400px;
+    }
+    
+    .event{
+        margin:0 auto;
+        padding:3px;
+        border-left:1px solid black;
+        border-right:1px solid black;
+    }
+    
+    .summer:first-of-type{
+        border-top:1px solid black;
+    }
+    
+    .winter:nth-of-type(2){
+        border-top:1px solid black;
+    }
+    
+    .event:last-of-type{
+        border-bottom:1px solid black;
+    }
+    
+    .summer:nth-of-type(2n-1){
+        background:#a3a090;
+    }
+    
+    .winter:nth-of-type(2n){
+        background:#a3a090;
+    }
+    
+    .bandstand{
+        border:none !important;
+    }
+    
 }
