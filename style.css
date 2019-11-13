@@ -75,7 +75,7 @@ footer{
 .event{
     text-align:left;
     margin:auto;
-    padding:0 10px 10px;
+/*    padding:3px 10px 10px 0;*/
 }
 
 .bandstand > p{
@@ -139,6 +139,38 @@ ul > li{
   max-width: 1200px;
 }
 
+    .event{
+        border-left:1px solid black;
+        border-right:1px solid black;
+        padding: 3px 10px;
+}
+        
+
+    .summer:first-of-type{
+        border-top:1px solid black;
+    }
+    
+    .winter:nth-of-type(2){
+        border-top:1px solid black;
+    }
+    
+    .event:last-of-type{
+        border-bottom:1px solid black;
+    }
+    
+    .summer:nth-of-type(2n-1){
+        background:#a3a090;
+    }
+    
+    .winter:nth-of-type(2n){
+        background:#a3a090;
+    }
+    
+    .bandstand{
+        border:none !important;
+    }
+
+
 @media screen and (max-width:800px){
     *{
         padding:0;
@@ -171,32 +203,7 @@ ul > li{
     .event{
         margin:0 auto;
         padding:3px;
-        border-left:1px solid black;
-        border-right:1px solid black;
     }
     
-    .summer:first-of-type{
-        border-top:1px solid black;
-    }
-    
-    .winter:nth-of-type(2){
-        border-top:1px solid black;
-    }
-    
-    .event:last-of-type{
-        border-bottom:1px solid black;
-    }
-    
-    .summer:nth-of-type(2n-1){
-        background:#a3a090;
-    }
-    
-    .winter:nth-of-type(2n){
-        background:#a3a090;
-    }
-    
-    .bandstand{
-        border:none !important;
-    }
     
 }
