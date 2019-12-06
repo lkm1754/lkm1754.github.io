@@ -37,6 +37,7 @@ div{
     width:100%;
     margin:0;
     padding-top:5px;
+    padding-bottom:3px;
 }
 
 .backgcolor > .bandstand {
@@ -120,23 +121,49 @@ ul > li{
     display:none;
     position: fixed;
     z-index: 1;
-    padding:0;
+/*    padding-top: 100px; */
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 0;
     top: 0;
-/*    width: 100%;*/
+    width: 100vw;
+    height: 100vh;
+
 /*    height: 100%;*/
     overflow: hidden;
-    background-color: black;
+    
+    /*background-color: transparent black;*/
+    /*background-color: black;*/
+    background: rgba(0, 0, 0, 0.3);
+    padding:0;
+    margin: 0;
+/*    margin-left:0;*/
     text-align:center;
-    border:5px solid white;
+/*    border:5px solid white;*/
 }
 
 .slide {
   position: relative;
   background-color: #fefefe;
   margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
+  /*padding: 0;*/
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+    /*width: 100%;*/
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 90%;
+  padding:0px;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  -webkit-box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.65);
+  -moz-box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.65);
+  box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.65);
+  object-fit:cover;
 }
 
     .event{
@@ -169,7 +196,6 @@ ul > li{
     .bandstand{
         border:none !important;
     }
-
 
 @media screen and (max-width:800px){
     *{
