@@ -37,6 +37,10 @@ div{
   margin:15px 30px;
 }
 
+iframe{
+    border:1px solid black;
+}
+
 .backgcolor{
     background:#a3a090;
     width:100%;
