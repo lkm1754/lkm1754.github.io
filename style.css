@@ -37,8 +37,18 @@ div{
   margin:15px 30px;
 }
 
-iframe{
+figure{
+    max-width:min-content;
+    margin:auto;
     border:1px solid black;
+}
+
+figcaption{
+    padding-bottom:2px;
+}
+
+iframe{
+    border-bottom:1px solid black;
 }
 
 .backgcolor{
