@@ -225,7 +225,7 @@ ul > li{
         border:none !important;
     }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     *{
         padding:0;
         margin:0 auto;
@@ -246,10 +246,6 @@ ul > li{
         font-size:35px;
     }
     
-    figure, iframe, figcaption{
-        display:none;
-    }
-    
     img{
         width:100%;
     }
@@ -263,4 +259,10 @@ ul > li{
         padding:3px;
     }
     
+}
+
+@media screen and (max-width:600px){
+    figure, iframe, figcaption{
+        display:none;
+    }
 }
