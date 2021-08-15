@@ -5,6 +5,7 @@
 
 body{
   background:#8f9779;
+/*    background:#cbc5ba;*/
   font-family:'PT Serif', serif;
 }
 
@@ -53,6 +54,7 @@ iframe{
 
 .backgcolor{
     background:#a3a090;
+/*    background:	#e0e2cf;*/
     width:100%;
     margin:0;
     padding-top:5px;
@@ -79,7 +81,7 @@ footer{
 
 .text > h2 {
 /*    text-align:left;*/
-    margin-left:47px;
+/*    margin-left:47px;*/
 }
 
 .text > p{
@@ -211,10 +213,12 @@ ul > li{
     
     .summer:nth-of-type(2n-1){
         background:#a3a090;
+/*    background:#b4afa5;*/
     }
     
     .winter:nth-of-type(2n){
         background:#a3a090;
+/*    background:#b4afa5;*/
     }
     
     .bandstand{
@@ -240,6 +244,10 @@ ul > li{
         text-align:center;
         margin:0;
         font-size:35px;
+    }
+    
+    figure, iframe, figcaption{
+        display:none;
     }
     
     img{
